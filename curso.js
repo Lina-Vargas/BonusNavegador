@@ -56,7 +56,7 @@ let buscarCurso = (id) => {
 */
 
 let imprimir = (curso, nombreEstudiante, idEstudiante) =>{
-texto = ('El estudiante con nombre <b>' + nombreEstudiante + '</b><br> Identificado con cédula Nro. <b>' + idEstudiante + '</b><br> Se ha matriculado en el curso <b>' + curso.nombre + '</b><br> Con una duración de <b>' + curso.duracion + '</b><br> y un costo de COP <b>' +  'curso.valor </b>'); 	
+texto = ('El estudiante con nombre <b>' + nombreEstudiante + '</b><br> Identificado con cédula Nro. <b>' + idEstudiante + '</b><br> Se ha matriculado en el curso <b>' + curso.nombre + '</b><br> Con una duración de <b>' + curso.duracion + '</b><br> y un costo de COP <b>' +  curso.valor + '</b>'); 	
 /*fs.writeFile('Prematricula.txt', texto, (err)=>{
 		if (err) throw (err);
 		mensaje = ('se ha creado el archivo exitosamente')
